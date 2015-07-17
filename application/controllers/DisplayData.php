@@ -19,17 +19,5 @@ class DisplayData extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 
-	public function city($cityArray){
-		//display data on city table
 
-		//display data on isp chart
-
-	}
-
-	public function isp($ispArray){
-		//display data on isp table
-
-		//display data on isp chart
-
-	}
 }

@@ -24,21 +24,16 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Jacob</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Larry</td>
-                            </tr>
+                            <?php foreach ($cites as $row):?>
+                                <tr>
+                                    <td><?php echo $row[0];?></td>
+                                    <td><?php echo $row[1];?></td>
+                                </tr>
+                            <?php endforeach;?>
                             </tbody>
                         </table>
                     </div>
+                    <!-- close .col-md-4 -->
                 </div>
             </div>
         </div>
@@ -83,43 +78,38 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="col-sm-8">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">ISP</h3>
-        </div>
-        <div class="panel-body">
-            <div class="row">
-                <div class="col-md-4">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>ISP</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Mark</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jacob</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Larry</td>
-                        </tr>
-                        </tbody>
-                    </table>
+
+    <div class="col-sm-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">ISP</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>ISP</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php foreach ($cites as $row):?>
+                                <tr>
+                                    <td><?php echo $row[0];?></td>
+                                    <td><?php echo $row[1];?></td>
+                                </tr>
+                            <?php endforeach;?>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- close .col-md-4 -->
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 <!-- close .row -->
 
